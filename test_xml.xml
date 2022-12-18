@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects type="array">
+<object>
+<elem type="integer">0</elem>
+<binary>0</binary>
+</object>
+<object>
+<elem type="integer">1</elem>
+<binary>1</binary>
+</object>
+<object>
+<elem type="integer">2</elem>
+<binary>10</binary>
+</object>
+<object>
+<elem type="integer">3</elem>
+<binary>11</binary>
+</object>
+<object>
+<elem type="integer">11</elem>
+<binary>1011</binary>
+</object>
+<object>
+<elem type="integer">22</elem>
+<binary>10110</binary>
+</object>
+</objects>

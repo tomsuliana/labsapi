@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<results>
+  <first><%= @digit %></first>
+  <second><%= @second_num %></second>
+
+
+    <steps>
+      <% @palindromes.each do |res, index| %>
+        <step>
+          <index><%= index + 1 %></index>
+          <first><%= res %></first>
+        </step>
+
+    </steps>
+
+    <result>
+      <gcd><%= @gcd %></gcd>
+      <lcm><%= @lcm %></lcm>
+    </result>
+  <% else %>
+    <error-msg>
+      You should enter a natural number in both inputs
+    </error-msg>
+  <% end %>
+</results>
